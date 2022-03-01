@@ -1,10 +1,12 @@
 #include <stdio.h>
 main ()
 {
-int y,x;
-printf ("enter number x\n");
+int y,x, c;
+printf ("enter number x/n");
 scanf ("%d", &x);
 y=x*pow(x,2);
-printf ("%d\n",y);
+printf ("%d/n",y);
+c=y/2;
+printf ("%d/n", c);
 return 0;
 }
