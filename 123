@@ -4,7 +4,7 @@ main ()
 int y,x, c;
 printf ("enter number x/n");
 scanf ("%d", &x);
-y=x*pow(2)/2;
+y=pow(x,2)/2;
 printf ("%d/n",y);
 c=y/2;
 printf ("%d/n", c);
