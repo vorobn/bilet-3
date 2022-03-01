@@ -5,6 +5,6 @@ int y,x;
 printf ("enter number x/n");
 scanf ("%d", &x);
 y=pow(x,2)/2;
-printf ("%d/n",y);
+printf ("%f/n",y);
 return 0;
 }
