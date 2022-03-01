@@ -5,8 +5,8 @@ int y,x, c;
 printf ("enter number x/n");
 scanf ("%d", &x);
 y=pow(x,2)/2;
-printf ("%d/n",y);
+printf ("%f/n",y);
 c=y/2;
-printf ("%d/n", c);
+printf ("%f/n", c);
 return 0;
 }
